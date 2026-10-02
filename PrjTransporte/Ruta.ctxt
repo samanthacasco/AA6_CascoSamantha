@@ -1,0 +1,35 @@
+#BlueJ class context
+#Fri Oct 02 14:15:07 CST 2026
+comment0.target=Ruta
+comment0.text=\r\n Representa una ruta de autob\u00FAs. Agrega las paradas de su recorrido (que\r\n existen por s\u00ED solas) y compone sus horarios de salida\: estos solo se\r\n registran y consultan a trav\u00E9s de la ruta y desaparecen con ella.\r\n\r\n @author Samantha Casco\r\n @version 1.0\r\n
+comment1.params=pCodigo pNombre pTarifa
+comment1.target=Ruta(java.lang.String, java.lang.String, double)
+comment1.text=\r\n Construye una ruta sin paradas ni horarios de salida.\r\n\r\n @param pCodigo c\u00F3digo de la ruta.\r\n @param pNombre nombre de la ruta.\r\n @param pTarifa tarifa del pasaje regular, en colones.\r\n
+comment10.params=pParada
+comment10.target=boolean existeParada(Parada)
+comment10.text=\r\n Indica si una parada ya forma parte del recorrido, comparando por c\u00F3digo.\r\n\r\n @param pParada parada que se busca.\r\n @return true si la parada ya est\u00E1 en el recorrido; false en caso contrario.\r\n
+comment11.params=pHora pMinuto
+comment11.target=boolean esHorarioValido(int, int)
+comment11.text=\r\n Indica si la hora y el minuto est\u00E1n dentro de los rangos permitidos.\r\n\r\n @param pHora hora que se valida.\r\n @param pMinuto minuto que se valida.\r\n @return true si ambos est\u00E1n en rango; false en caso contrario.\r\n
+comment12.target=java.lang.String toString()
+comment12.text=\r\n Retorna una representaci\u00F3n textual de la ruta con su c\u00F3digo, nombre,\r\n tarifa, paradas y horarios de salida.\r\n\r\n @return cadena con el estado de la ruta.\r\n
+comment2.target=java.lang.String getCodigo()
+comment2.text=\r\n Consulta el c\u00F3digo de la ruta.\r\n\r\n @return el c\u00F3digo de la ruta.\r\n
+comment3.target=java.lang.String getNombre()
+comment3.text=\r\n Consulta el nombre de la ruta.\r\n\r\n @return el nombre de la ruta.\r\n
+comment4.target=double getTarifa()
+comment4.text=\r\n Consulta la tarifa del pasaje regular de la ruta.\r\n\r\n @return la tarifa, en colones.\r\n
+comment5.params=pParada
+comment5.target=void agregarParada(Parada)
+comment5.text=\r\n Agrega una parada al final del recorrido. Ignora la solicitud si la\r\n parada es null o si ya forma parte del recorrido.\r\n\r\n @param pParada parada que se agrega al recorrido.\r\n
+comment6.params=pHora pMinuto
+comment6.target=void registrarSalida(int, int)
+comment6.text=\r\n Registra un horario de salida. Si la hora o el minuto est\u00E1n fuera de\r\n rango, el horario no se registra.\r\n\r\n @param pHora hora de salida, de 0 a 23.\r\n @param pMinuto minuto de salida, de 0 a 59.\r\n
+comment7.params=pHora
+comment7.target=void registrarSalida(int)
+comment7.text=\r\n Registra un horario de salida en punto; el minuto es MINUTO_POR_OMISION.\r\n\r\n @param pHora hora de salida, de 0 a 23.\r\n
+comment8.target=java.lang.String consultarNombresParadas()
+comment8.text=\r\n Consulta los nombres de las paradas del recorrido, en orden.\r\n\r\n @return los nombres de las paradas separados por coma.\r\n
+comment9.target=java.lang.String consultarHorariosSalida()
+comment9.text=\r\n Consulta los horarios de salida con formato HH\:MM.\r\n\r\n @return los horarios separados por coma.\r\n
+numComments=13

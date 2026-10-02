@@ -1,0 +1,10 @@
+#BlueJ class context
+#Fri Oct 02 14:14:25 CST 2026
+comment0.target=HorarioSalida
+comment0.text=\r\n Representa un horario de salida de una ruta. Solo la clase Ruta lo construye\r\n y lo conoce\: no tiene sentido fuera de la ruta a la que pertenece.\r\n\r\n @author Samantha Casco\r\n @version 1.0\r\n
+comment1.params=pHora pMinuto
+comment1.target=HorarioSalida(int, int)
+comment1.text=\r\n Construye un horario de salida. La ruta es quien valida los rangos\r\n antes de crearlo.\r\n\r\n @param pHora hora de salida.\r\n @param pMinuto minuto de salida.\r\n
+comment2.target=java.lang.String toString()
+comment2.text=\r\n Retorna el horario con formato HH\:MM, siempre con dos d\u00EDgitos para la\r\n hora y dos para el minuto (por ejemplo 06\:05).\r\n\r\n @return el horario como cadena en formato HH\:MM.\r\n
+numComments=3

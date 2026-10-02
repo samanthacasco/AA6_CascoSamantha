@@ -1,0 +1,20 @@
+#BlueJ class context
+#Fri Oct 02 14:14:45 CST 2026
+comment0.target=Persona
+comment0.text=\r\n Representa una persona pasajera con su condici\u00F3n\: regular, estudiante o\r\n ciudadano de oro.\r\n\r\n @author Samantha Casco\r\n @version 1.0\r\n
+comment1.params=pNombre pCondicion
+comment1.target=Persona(java.lang.String, java.lang.String)
+comment1.text=\r\n Construye una persona con su nombre y condici\u00F3n. Una condici\u00F3n\r\n desconocida o null se trata como regular.\r\n\r\n @param pNombre nombre de la persona.\r\n @param pCondicion condici\u00F3n de la persona.\r\n
+comment2.params=pNombre
+comment2.target=Persona(java.lang.String)
+comment2.text=\r\n Construye una persona indicando solo su nombre; su condici\u00F3n es regular.\r\n\r\n @param pNombre nombre de la persona.\r\n
+comment3.target=java.lang.String getNombre()
+comment3.text=\r\n Consulta el nombre de la persona.\r\n\r\n @return el nombre de la persona.\r\n
+comment4.target=java.lang.String getCondicion()
+comment4.text=\r\n Consulta la condici\u00F3n de la persona.\r\n\r\n @return la condici\u00F3n de la persona.\r\n
+comment5.params=pCondicion
+comment5.target=java.lang.String normalizarCondicion(java.lang.String)
+comment5.text=\r\n Normaliza la condici\u00F3n recibida. Es un detalle interno\: una condici\u00F3n\r\n desconocida o null se trata como regular.\r\n\r\n @param pCondicion condici\u00F3n recibida.\r\n @return la condici\u00F3n normalizada.\r\n
+comment6.target=java.lang.String toString()
+comment6.text=\r\n Retorna una representaci\u00F3n textual de la persona con su nombre y condici\u00F3n.\r\n\r\n @return cadena con los datos de la persona.\r\n
+numComments=7

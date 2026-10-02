@@ -1,0 +1,7 @@
+#BlueJ class context
+#Fri Oct 02 16:56:44 CST 2026
+comment0.target=PrincipalTransporte
+comment0.text=\r\n Programa principal del sistema de transporte p\u00FAblico\: registra paradas,\r\n rutas, buses y personas pasajeras, cobra pasajes y muestra el estado final.\r\n\r\n @author Samantha Casco\r\n @version 1.0\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2

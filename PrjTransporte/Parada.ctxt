@@ -1,0 +1,14 @@
+#BlueJ class context
+#Fri Oct 02 14:14:35 CST 2026
+comment0.target=Parada
+comment0.text=\r\n Representa una parada de autob\u00FAs. Existe de forma independiente de las\r\n rutas\: primero se registra y luego las rutas la incorporan a su recorrido.\r\n\r\n @author Samantha Casco\r\n @version 1.0\r\n
+comment1.params=pCodigo pNombre
+comment1.target=Parada(java.lang.String, java.lang.String)
+comment1.text=\r\n Construye una parada con el c\u00F3digo y el nombre indicados.\r\n\r\n @param pCodigo c\u00F3digo de la parada.\r\n @param pNombre nombre de la parada.\r\n
+comment2.target=java.lang.String getCodigo()
+comment2.text=\r\n Consulta el c\u00F3digo de la parada.\r\n\r\n @return el c\u00F3digo de la parada.\r\n
+comment3.target=java.lang.String getNombre()
+comment3.text=\r\n Consulta el nombre de la parada.\r\n\r\n @return el nombre de la parada.\r\n
+comment4.target=java.lang.String toString()
+comment4.text=\r\n Retorna una representaci\u00F3n textual de la parada con su c\u00F3digo y nombre.\r\n\r\n @return cadena con los datos de la parada.\r\n
+numComments=5

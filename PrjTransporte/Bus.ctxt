@@ -1,0 +1,33 @@
+#BlueJ class context
+#Fri Oct 02 14:15:10 CST 2026
+comment0.target=Bus
+comment0.text=\r\n Representa un bus que cubre una ruta y cobra el pasaje a las personas\r\n pasajeras. Cada bus recibe un c\u00F3digo consecutivo \u00FAnico y acumula el total\r\n recaudado y la cantidad de personas atendidas, sin importar cu\u00E1ntas veces\r\n cambie de ruta. La pol\u00EDtica de descuentos es un detalle interno del bus.\r\n\r\n @author Samantha Casco\r\n @version 1.0\r\n
+comment1.params=pPlaca pCapacidad
+comment1.target=Bus(java.lang.String, int)
+comment1.text=\r\n Construye un bus sin ruta asignada. Incrementa la cantidad de buses y\r\n genera su c\u00F3digo consecutivo.\r\n\r\n @param pPlaca placa del bus.\r\n @param pCapacidad capacidad de personas pasajeras.\r\n
+comment10.params=pPersona
+comment10.target=void cobrarPasaje(Persona)
+comment10.text=\r\n Cobra el pasaje a una persona seg\u00FAn la tarifa de la ruta y la condici\u00F3n de\r\n la persona. Si el bus no tiene ruta asignada, o la persona es null, no\r\n cobra ni contabiliza a la persona como atendida.\r\n\r\n @param pPersona persona pasajera que aborda el bus.\r\n
+comment11.params=pCondicion
+comment11.target=double obtenerDescuento(java.lang.String)
+comment11.text=\r\n Obtiene el descuento que corresponde a una condici\u00F3n. Es un detalle\r\n interno del bus\: la pol\u00EDtica de descuentos no la conoce nadie m\u00E1s.\r\n\r\n @param pCondicion condici\u00F3n de la persona pasajera.\r\n @return el descuento como fracci\u00F3n de la tarifa, de 0.0 a 1.0.\r\n
+comment12.target=java.lang.String toString()
+comment12.text=\r\n Retorna una representaci\u00F3n textual del bus con su c\u00F3digo, placa,\r\n capacidad, ruta asignada, personas atendidas y total recaudado.\r\n\r\n @return cadena con el estado del bus.\r\n
+comment2.target=java.lang.String getCodigo()
+comment2.text=\r\n Consulta el c\u00F3digo del bus.\r\n\r\n @return el c\u00F3digo del bus.\r\n
+comment3.target=java.lang.String getPlaca()
+comment3.text=\r\n Consulta la placa del bus.\r\n\r\n @return la placa del bus.\r\n
+comment4.target=int getCapacidad()
+comment4.text=\r\n Consulta la capacidad del bus.\r\n\r\n @return la capacidad de personas pasajeras.\r\n
+comment5.target=double getTotalRecaudado()
+comment5.text=\r\n Consulta el total recaudado por el bus.\r\n\r\n @return el total recaudado, en colones.\r\n
+comment6.target=int getCantidadPersonasAtendidas()
+comment6.text=\r\n Consulta la cantidad de personas pasajeras atendidas por el bus.\r\n\r\n @return la cantidad de personas atendidas.\r\n
+comment7.target=int getCantidadBuses()
+comment7.text=\r\n Consulta la cantidad total de buses registrados.\r\n Al ser un m\u00E9todo de clase, se invoca directamente sobre Bus.\r\n\r\n @return la cantidad de buses registrados hasta el momento.\r\n
+comment8.params=pRuta
+comment8.target=void asignarRuta(Ruta)
+comment8.text=\r\n Asigna la ruta que cubre el bus. Si ya ten\u00EDa una, la reemplaza.\r\n\r\n @param pRuta ruta que pasa a cubrir el bus.\r\n
+comment9.target=java.lang.String consultarNombreRuta()
+comment9.text=\r\n Consulta el nombre de la ruta asignada al bus.\r\n\r\n @return el nombre de la ruta, o TEXTO_SIN_RUTA si no tiene ruta asignada.\r\n
+numComments=13
