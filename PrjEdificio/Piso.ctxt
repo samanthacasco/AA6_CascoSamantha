@@ -1,0 +1,13 @@
+#BlueJ class context
+#Fri Oct 02 12:57:22 CST 2026
+comment0.target=Piso
+comment0.text=\r\n Piso de un edificio. Su n\u00FAmero lo asigna el Edificio que lo contiene.\r\n
+comment1.params=pNumeroPiso pArea pCapacidad pUso
+comment1.target=Piso(int, double, int, java.lang.String)
+comment2.target=int getNumeroPiso()
+comment3.target=double getArea()
+comment4.target=int getCapacidad()
+comment5.target=java.lang.String getUso()
+comment6.target=int getCantidadPisos()
+comment7.target=java.lang.String toString()
+numComments=8
