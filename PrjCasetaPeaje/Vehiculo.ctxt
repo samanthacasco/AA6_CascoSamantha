@@ -1,0 +1,12 @@
+#BlueJ class context
+#Fri Oct 02 13:42:41 CST 2026
+comment0.target=Vehiculo
+comment0.text=\r\n Representa un veh\u00EDculo que puede pasar por una caseta de peaje.\r\n\r\n @author Samantha Casco\r\n @version 1.0\r\n
+comment1.params=pPlaca pTipo pMarca pModelo pAnnio
+comment1.target=Vehiculo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)
+comment1.text=\r\n Construye un veh\u00EDculo con los datos indicados.\r\n\r\n @param pPlaca placa del veh\u00EDculo.\r\n @param pTipo tipo del veh\u00EDculo.\r\n @param pMarca marca del veh\u00EDculo.\r\n @param pModelo modelo del veh\u00EDculo.\r\n @param pAnnio a\u00F1o de fabricaci\u00F3n del veh\u00EDculo.\r\n
+comment2.target=java.lang.String getTipo()
+comment2.text=\r\n Consulta el tipo del veh\u00EDculo.\r\n\r\n @return el tipo del veh\u00EDculo.\r\n
+comment3.target=java.lang.String toString()
+comment3.text=\r\n Retorna una representaci\u00F3n textual del veh\u00EDculo con su placa, tipo,\r\n marca, modelo y a\u00F1o.\r\n\r\n @return cadena con los datos del veh\u00EDculo.\r\n
+numComments=4

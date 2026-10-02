@@ -1,0 +1,20 @@
+#BlueJ class context
+#Fri Oct 02 13:42:56 CST 2026
+comment0.target=CasetaPeaje
+comment0.text=\r\n Representa una caseta de peaje que cobra a los veh\u00EDculos que pasan por ella\r\n seg\u00FAn su tipo. Cada caseta recibe un n\u00FAmero consecutivo \u00FAnico y acumula el\r\n total cobrado. Los montos de cobro son constantes de la clase y la pol\u00EDtica\r\n de tarifas es un detalle interno de la caseta.\r\n\r\n @author Samantha Casco\r\n @version 1.0\r\n
+comment1.params=pNombreAutopista
+comment1.target=CasetaPeaje(java.lang.String)
+comment1.text=\r\n Construye una caseta con el nombre de la autopista indicado. Incrementa\r\n la cantidad de casetas y le asigna su n\u00FAmero consecutivo.\r\n\r\n @param pNombreAutopista nombre de la autopista donde est\u00E1 la caseta.\r\n
+comment2.params=obj
+comment2.target=void cobrarPeaje(Vehiculo)
+comment2.text=\r\n Cobra el peaje al veh\u00EDculo recibido seg\u00FAn su tipo y lo acumula en el total\r\n cobrado. Si el veh\u00EDculo es null no cobra nada. El veh\u00EDculo no se modifica.\r\n\r\n @param obj veh\u00EDculo al que se le cobra el peaje.\r\n
+comment3.params=pTipo
+comment3.target=double obtenerMontoPorTipo(java.lang.String)
+comment3.text=\r\n Obtiene el monto del peaje para un tipo de veh\u00EDculo. Es un detalle interno\r\n de la tarifa\: ning\u00FAn otro objeto necesita conocerlo.\r\n\r\n @param pTipo tipo del veh\u00EDculo.\r\n @return el monto a cobrar, o MONTO_TIPO_DESCONOCIDO si el tipo no se reconoce.\r\n
+comment4.target=double getTotalCobrado()
+comment4.text=\r\n Consulta el total cobrado por la caseta.\r\n\r\n @return el total cobrado, en colones.\r\n
+comment5.target=int getCantidadDeCasetasPeaje()
+comment5.text=\r\n Consulta la cantidad total de casetas creadas.\r\n Al ser un m\u00E9todo de clase, se invoca directamente sobre CasetaPeaje.\r\n\r\n @return la cantidad de casetas creadas hasta el momento.\r\n
+comment6.target=java.lang.String toString()
+comment6.text=\r\n Retorna una representaci\u00F3n textual de la caseta con su n\u00FAmero, autopista\r\n y total cobrado.\r\n\r\n @return cadena con los datos de la caseta.\r\n
+numComments=7

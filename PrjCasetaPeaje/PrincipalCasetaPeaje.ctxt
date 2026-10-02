@@ -1,0 +1,7 @@
+#BlueJ class context
+#Fri Oct 02 16:52:17 CST 2026
+comment0.target=PrincipalCasetaPeaje
+comment0.text=\r\n Programa principal que crea veh\u00EDculos y casetas de peaje, cobra el peaje\r\n a cada veh\u00EDculo y muestra el estado de las casetas.\r\n\r\n @author Samantha Casco\r\n @version 1.0\r\n
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+numComments=2
